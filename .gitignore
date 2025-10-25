@@ -1,0 +1,27 @@
+# Model artifacts and generated outputs
+eval_out/
+training_log/
+pretrained_models/
+**/checkpoints/
+**/outputs/
+**/runs/
+
+# Large binary blobs produced by training/eval
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.bin
+*.npz
+*.npy
+
+# Logs and temp files
+*.log
+*.tmp
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Misc
+.DS_Store
