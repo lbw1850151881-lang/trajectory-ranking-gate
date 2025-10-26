@@ -5,7 +5,7 @@ description: Pairwise-ranking tri-expert gating with LLM supervision for nuPlan-
 
 # Dynamic Model Selection for Trajectory Prediction
 
-> Reference site for the AAAI 2026 manuscript **“Dynamic Model Selection for Trajectory Prediction via Pairwise Ranking and Meta-Features.”** The repo exposes the full stack needed to reproduce the reported improvements on nuPlan-mini: expert models, meta-feature extraction, RankNet gate training, and LLM-supervised deployment.
+> Reference site for the paper **“Dynamic Model Selection for Trajectory Prediction via Pairwise Ranking and Meta-Features.”** The repo exposes the full stack needed to reproduce the reported improvements on nuPlan-mini: expert models, meta-feature extraction, RankNet gate training, and LLM-supervised deployment.
 
 ## Why This Project
 Recent trajectory predictors excel on average yet fail in safety-critical long-tail scenes. Analysis on 1,287 nuPlan-mini samples shows a **0.464 m FDE oracle gap (16.4%)** between the best single expert (GameFormer) and a tri-expert oracle. Bridging that gap requires:
@@ -65,8 +65,6 @@ nuPlan data ──> train experts ──> extract meta-features
 @article{lu2026dynamic,
   title   = {Dynamic Model Selection for Trajectory Prediction via Pairwise Ranking and Meta-Features},
   author  = {Lu, Bowen},
-  journal = {AAAI Conference on Artificial Intelligence},
-  year    = {2026}
 }
 ```
 
