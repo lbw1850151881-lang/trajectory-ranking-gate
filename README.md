@@ -1,6 +1,6 @@
 # Dynamic Model Selection for Trajectory Prediction
 
-> Open-source reference implementation of the paper **“Dynamic Model Selection for Trajectory Prediction via Pairwise Ranking and Meta-Features”** (AAAI 2026 submission). The repository exposes the full tri-expert gating stack—experts, meta-features, learning-to-rank gate, and LLM supervision—to reproduce the reported gains on the 1,287-scene **nuPlan-mini** benchmark.
+> Open-source reference implementation of the paper **“Dynamic Model Selection for Trajectory Prediction via Pairwise Ranking and Meta-Features”** . The repository exposes the full tri-expert gating stack—experts, meta-features, learning-to-rank gate, and LLM supervision—to reproduce the reported gains on the 1,287-scene **nuPlan-mini** benchmark.
 
 ## Project Overview
 - **Motivation**: Single-model predictors collapse in long-tail scenes (dense intersections, occlusions, cut-ins). We instead select the most reliable expert per sample while preserving physical feasibility.
